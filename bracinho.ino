@@ -18,10 +18,7 @@ Servo servoGarra;
 const int minBase = 30, maxBase = 150;
 const int minCotovelo1 = 0, maxCotovelo1 = 180;
 const int minCotovelo2 = 0, maxCotovelo2 = 180;
-const int minGarra =      
-
-
-0, maxGarra = 80;
+const int minGarra = 0, maxGarra = 80;
 
 // --- Variáveis para controle da garra ---
 bool garraAberta = false;
@@ -72,3 +69,4 @@ void loop() {
 
   delay(100); 
 }
+
